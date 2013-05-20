@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:orientation="vertical"
+	android:layout_height="fill_parent">
+	<com.androidplot.xy.XYPlot
+		android:id="@+id/mySimpleXYPlot"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_marginTop="0px"
+		android:layout_marginLeft="0px"
+		android:layout_marginRight="0px"
+		android:layout_weight="1"
+		android:background="@color/white"
+		title="Alerts HistoryAlerts History" />
+	<HorizontalScrollView
+		android:id="@+id/myScrollView"
+    	android:layout_width="fill_parent"
+    	android:layout_height="@dimen/ancho_alerta"
+    	android:fillViewport="true"
+    	android:layout_weight="0"
+    	android:background="@drawable/fondo2">
+    	<LinearLayout
+	        android:id="@+id/id_linearlayout"
+    	    android:layout_width="wrap_content"
+        	android:layout_height="fill_parent"
+        	android:orientation="horizontal">
+    	</LinearLayout>
+	</HorizontalScrollView>
+</LinearLayout> 

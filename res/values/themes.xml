@@ -1,0 +1,17 @@
+<resources>
+<style name="Theme.Skolti" parent="@style/Theme.GreenDroid.NoTitleBar">
+<!-- GreenDroid -->
+<item name="gdActionBarTitleColor">@android:color/white</item>
+<item name="gdActionBarBackground">@drawable/action_bar_background</item>
+<item name="gdActionBarDividerDrawable">@drawable/action_bar_divider</item>
+<item name="gdActionBarDividerWidth">2px</item>
+<item name="gdActionBarApplicationDrawable">@drawable/greendroid_application_logo</item>
+<item name="gdActionBarTitleStyle">@drawable/action_bar_background</item>
+<item name="android:windowBackground">@color/ivory_2</item>
+<item name="android:colorBackground">@color/ivory_2</item>
+<item name="android:textColor">@color/black</item>
+</style>
+<style name="Theme.PrefsTheme" parent="android:Theme.Light">
+</style>
+</resources>
+    

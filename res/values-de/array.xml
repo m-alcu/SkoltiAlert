@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+   <array name="a_refresh">
+      <item>1 Stunde</item>
+      <item>3 Stunden</item>
+      <item>6 Stunden</item>
+      <item>12 Stunden</item>
+      <item>einmal am Tag</item>
+   </array>
+   <array name="v_refresh">
+      <item>"60"</item>
+      <item>"180"</item>
+      <item>"360"</item>
+      <item>"720"</item>
+      <item>"1440"</item>
+   </array>
+   <array name="a_last_mentions">
+      <item>die letzten 1000 heißt</item>
+      <item>die letzten 5000 heißt</item>
+      <item>die letzten 10000 heißt</item>
+      <item>die letzten 100000 heißt</item>
+   </array>
+   <array name="v_last_mentions">
+      <item>"01000"</item>
+      <item>"05000"</item>
+      <item>"10000"</item>
+      <item>"100000"</item>
+   </array>
+</resources>
+

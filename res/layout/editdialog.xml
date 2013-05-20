@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical">
+  <TableRow>
+  <TextView
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:text="@string/track_edit_search"
+  android:textColor="@color/white"
+  android:gravity="right"
+  android:layout_weight="1"/>
+  <EditText
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:id="@+id/editSearch"
+  android:layout_weight="2"/>
+  </TableRow>
+  
+  <TableRow>
+  <TextView
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:text="@string/track_edit_toplimit"
+  android:textColor="@color/white"
+  android:gravity="right"
+  android:layout_margin="1dip"
+  android:layout_weight="1"/>
+  <EditText
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:inputType="number"
+  android:digits="0123456789"
+  android:id="@+id/editTop"
+  android:layout_margin="1dip"
+  android:layout_weight="2"/>
+  </TableRow>
+
+</TableLayout>

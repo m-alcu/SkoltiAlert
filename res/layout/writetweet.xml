@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical">
+  	<LinearLayout 
+		android:orientation="vertical"
+		android:layout_weight="1"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content">
+  		<EditText 
+  			android:layout_width="fill_parent"
+        	android:layout_height="wrap_content" 
+        	android:singleLine="false"
+        	android:gravity="top" 
+        	android:lines="8"
+        	android:id="@+id/twitterMsg"
+        	android:layout_margin="4dip"/>
+    	<TextView 
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:id="@+id/numberChars"
+			android:gravity="right"
+			android:textStyle="bold"
+			android:layout_margin="4dip"/>
+	</LinearLayout>
+    <LinearLayout 
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_weight="0" 
+		android:layout_height="wrap_content">
+		<Button
+  			android:layout_width="fill_parent"
+  			android:layout_height="wrap_content"
+  			android:id="@+id/btnAdd"
+  			android:text="Send"
+  			android:onClick="btnAddTweet_Click"
+  			android:layout_weight="1" 
+  			android:layout_gravity="center_horizontal" android:layout_margin="2dip"/>
+  		<Button
+  			android:layout_width="fill_parent"
+  			android:layout_height="wrap_content"
+  			android:id="@+id/btnCancel"
+  			android:text="Cancel"
+  			android:onClick="btnCancelTweet_Click"
+  			android:layout_weight="1" 
+  			android:layout_gravity="center_horizontal" android:layout_margin="2dip"/>
+	 </LinearLayout>	
+</LinearLayout>

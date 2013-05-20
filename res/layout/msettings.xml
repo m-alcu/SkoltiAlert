@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical">
+    <TextView 
+    android:text=" " 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:layout_gravity="center_horizontal"/>
+    <TextView 
+    android:text="@string/settings_title" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:textColor="@color/darkgreen"
+    android:textStyle="bold"
+    android:layout_gravity="center_horizontal"/>
+    <TextView 
+    android:text=" " 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:layout_gravity="center_horizontal"/>
+    <TextView 
+    android:text="@string/settings_subtitle1"
+    android:textColor="@color/black"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:textStyle="bold" 
+    android:layout_gravity="center_horizontal"/>
+    <TextView 
+    android:text="@string/settings_line1"
+    android:textColor="@color/ivory_4"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:layout_gravity="center_horizontal"/>
+    <TextView 
+    android:text="@string/settings_line2"
+    android:textColor="@color/ivory_4"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:layout_gravity="center_horizontal"/>
+    <TextView 
+    android:text="@string/settings_line3"
+    android:textColor="@color/ivory_4"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:layout_gravity="center_horizontal"/>
+    <TextView 
+    android:text=" " 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:layout_gravity="center_horizontal"/>
+    <TextView 
+    android:text="@string/settings_subtitle2"
+    android:textColor="@color/black"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:textStyle="bold" 
+    android:layout_gravity="center_horizontal"/>
+    <TextView 
+    android:text="@string/settings_line4"
+    android:textColor="@color/ivory_4"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:layout_gravity="center_horizontal"/>
+    <TextView 
+    android:text=" " 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:layout_gravity="center_horizontal"/>
+    <TextView 
+    android:id="@+id/name_twitter"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_gravity="center_horizontal"
+	android:hint="@string/userhint"/>
+	<TextView 
+    android:text=" " 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:layout_gravity="center_horizontal"/>
+    <LinearLayout 
+    android:layout_height="wrap_content" 
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/surround_button"
+    android:layout_gravity="center_horizontal">
+	    <Button
+    	android:id="@+id/login_status"
+		android:layout_width="160sp"
+		android:layout_height="wrap_content"
+		android:onClick="btnLogUser" 
+		android:background="@drawable/custom_button"
+		android:layout_gravity="center_horizontal"
+		android:layout_marginTop="4dip" 
+		android:layout_marginBottom="4dip"
+		android:text="Sign in Twitter"/>
+		<Button
+    	android:id="@+id/skip_status"
+		android:layout_width="160sp"
+		android:layout_height="wrap_content"
+		android:onClick="btnSkip" 
+		android:background="@drawable/custom_button"
+		android:layout_gravity="center_horizontal"
+		android:layout_marginTop="4dip" 
+		android:layout_marginBottom="4dip"
+		android:text="Skip Registration"/>
+	</LinearLayout>
+</LinearLayout>

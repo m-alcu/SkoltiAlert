@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  	xmlns:android="http://schemas.android.com/apk/res/android"
+  	xmlns:greendroid="http://schemas.android.com/apk/res/com.alcubier.skoltialert"
+  	android:layout_width="fill_parent"
+  	android:layout_height="fill_parent" 
+  	android:orientation="vertical">
+	<LinearLayout 
+		android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+  		<greendroid.widget.AsyncImageView
+			android:id="@+id/twitter_image"
+			android:layout_width="@dimen/photo_size"
+			android:layout_height="@dimen/photo_size"
+			android:layout_margin="16dip"
+			greendroid:defaultSrc="@drawable/stub" />
+		<TextView 
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:id="@+id/viewWhoMention"
+			android:textSize="18sp" android:layout_weight="1"
+			android:layout_marginTop="16dip"
+			android:textStyle="bold"/>
+	</LinearLayout>
+	<TextView 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:id="@+id/viewTxtMention"
+		android:textSize="18sp" 
+		android:layout_margin="4dip"/>
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:id="@+id/viewDateMention"
+		android:gravity="right" android:textColor="#8B8B83"
+		android:textSize="16sp" android:layout_weight="1" android:layout_margin="4dip"
+		android:textStyle="bold"/>
+	<LinearLayout 
+		android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">	
+		<Button
+  			android:layout_width="fill_parent"
+  			android:layout_height="wrap_content"
+  			android:layout_weight="1"
+  			android:id="@+id/btnRetweet"
+  			android:text="Retweet"
+  			android:onClick="btnSendRetweet_Click" 
+  			android:layout_gravity="center_horizontal" android:layout_margin="2dip"/>
+  		<Button
+  			android:layout_width="fill_parent"
+  			android:layout_height="wrap_content"
+  			android:layout_weight="1"
+  			android:id="@+id/btnReply"
+  			android:text="Reply"
+  			android:onClick="btnSendReply_Click" 
+  			android:layout_gravity="center_horizontal" android:layout_margin="2dip"/>
+  		<Button
+  			android:layout_width="fill_parent"
+  			android:layout_height="wrap_content"
+  			android:layout_weight="1"
+  			android:id="@+id/btnCitar"
+  			android:text="Mention"
+  			android:onClick="btnSendCitar_Click" 
+  			android:layout_gravity="center_horizontal" android:layout_margin="2dip"/>
+  	</LinearLayout>
+</LinearLayout>
